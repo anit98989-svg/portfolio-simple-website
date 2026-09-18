@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Young Serif", serif;
+}
+
+.container {
+    padding: 50px;
+}
+
+.section-one {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.section-one__contact {
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.section-one__name {
+    font-size: 60px;
+}
+
+.section-one__role {
+    font-size: 30px margin: 10px;
+}
+
+.section-two,
+.section-three,
+.section-four,
+.section-five {
+    margin-top: 20px;
+}
+
+.section-two__desc,
+.section-three__desc,
+.section-four__desc,
+.section-five__desc {
+    margin-top: 1%;
+}
+
+.section-five {
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+
+.section-five__title a {
+    color: skyblue;
+
+}
+
+.section-three,
+.section-four li {
+    list-style: none;
+}
+
+.section-three {
+    background-color: #6262fd;
+    padding: 20px;
+    color: black;
+    width: 10%;
+    margin-right: 10px;
+    height: 200px;
+    border-radius: 10px;
+    vertical-align: top;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.section-four {
+    background-color: #fe7517;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    height: 200px;
+
+    vertical-align: top;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.section-row {
+    display: flex;
+    align-items: flex-start;
+}
+
+.section-five {
+    display: block !important;
+    width: 100% !important;
+
+    margin-top: 20px;
+}
+
+.section-one {
+    display: block;
+}
+
+.container {
+
+    flex-wrap: wrap;
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+.contact-form__input,
+.contact-form__textarea,
+.contact-form__submit {
+    margin-top: 10px;
+}
+
+.contact-form__input {
+    padding: 10px;
+    border: none;
+    border-bottom: solid black 1px;
+    
+}
+
+.contact-form__textarea {
+    padding: 10px;
+    border: none;
+    border-bottom: solid black 1px;
+}
+.contact-form__submit{
+    background-color: orangered;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+    border: none;
+}
