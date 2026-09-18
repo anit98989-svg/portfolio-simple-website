@@ -1,4 +1,4 @@
-# portfolio-simple-website# 🌐 Personal Portfolio Website
+🌐 Personal Portfolio Website
 
 A simple and clean **personal portfolio website** built using **HTML and basic CSS**. This project was created to practice web development fundamentals and showcase personal information in a simple website.
 
